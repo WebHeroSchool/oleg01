@@ -15,10 +15,38 @@
 .header {
 	display: flex;
 	justify-content: space-between;
+	padding: 40px 0;
 }
 
 .logo {
-	padding: 40px 0;
+	position: relative;
+	padding-left: 44px;  
+	/* font-family: pt_serif, arial, helvetica, sans-serif;  рефакторинг кода*/
+	font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+	width: 190px;
+	height: 35px;
+
+}
+
+.logo__circle {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%); /* центрирование элемента */
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	opacity: .7;
+}
+
+.logo__circle_color_dark-blue {
+    background: #0056EC;
+}
+
+.logo__circle_color_blue {
+ left: 8px;
+ top: 66%;
+ background: #C8DBFB;
 }
 
 .menu {
