@@ -16,7 +16,7 @@
 
 .logo {
 	position: relative;
-	padding-left: 44px;  
+	padding-left: 44px;
 	font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 	width: 190px;
 	height: 35px;
@@ -26,7 +26,7 @@
 	position: absolute;
 	left: 0;
 	top: 50%;
-	transform: translateY(-50%); 
+	transform: translateY(-50%);
 	width: 28px;
 	height: 28px;
 	border-radius: 50%;
@@ -47,7 +47,6 @@
 	display: flex;
 	align-items: center;
 }
-
 
 .menu__item {
 	position: relative;
@@ -72,7 +71,6 @@
 	opacity: 0;
 	transition: opacity.5s;
 	background: #0056EC;
-
 }
 
 .menu__item:hover {
@@ -121,10 +119,3 @@
 .main__button:hover {
 	opacity: .5;
 }
-
-
-
-
-
-
-
