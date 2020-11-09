@@ -110,10 +110,17 @@
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
+  transition-duration: 0.25s;
 }
 
 .hamburger-menu__item:hover {
   background-color: #cfd8dc;
+}
+
+.hamburger-menu__btn > span,
+.hamburger-menu__btn > span::before,
+.hamburger-menu__btn > span::after {
+  transition-duration: 0.25s;
 }
 
 #hamburger-menu__toggle:checked ~ .hamburger-menu__btn > span {
@@ -133,16 +140,6 @@
 #hamburger-menu__toggle:checked ~ .hamburger-menu__box {
   visibility: visible;
   left: 0;
-}
-
-.hamburger-menu__btn > span,
-.hamburger-menu__btn > span::before,
-.hamburger-menu__btn > span::after {
-  transition-duration: 0.25s;
-}
-
-.hamburger-menu__item {
-  transition-duration: 0.25s;
 }
 
 .menu {
@@ -222,7 +219,7 @@
 @media screen and (max-device-width: 768px) {
   .menu {
     display: none;
-}
+  }
 
   .logo__name {
     display: none;
