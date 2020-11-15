@@ -210,7 +210,7 @@
   opacity: .5;
 }
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-device-width: 1000px) {
   .wrapper {
     width: 90%;
   }
@@ -259,7 +259,7 @@
   }
 }
 
-@media screen and (min-device-width: 1370px) {
+@media screen and (min-device-width: 1575px) {
   .wrapper {
     width: 80%;
   }
